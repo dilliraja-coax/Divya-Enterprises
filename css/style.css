@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	-o-background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover;
-	min-height:800px;
+	min-height:800px;	
 }
 .header-top{
 	min-height:250px;
