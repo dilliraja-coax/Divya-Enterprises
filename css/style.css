@@ -53,12 +53,12 @@ h1,h2,h3,h4,h5,h6,label,p{
 	float:left;
 }
 .logo h1 a{
-	background:url(../images/log.png) bottom no-repeat;
-	width: 240px;
+	
+	width: 250px;
 	height: 204px;
 	display:block;
 	text-align: center;
-	padding: 1.7em 0 0;
+	padding: 2.5em 0 0;
 	text-decoration:none;
 	color:#fff;
 }
@@ -138,7 +138,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 /*--//header--*/
  /*--content-top--*/
-.glyphicon.glyphicon-book ,.glyphicon.glyphicon-time,.glyphicon.glyphicon-edit{
+.glyphicon.glyphicon-cutlery ,.glyphicon.glyphicon-camera,.glyphicon.glyphicon-phone-alt{
 	font-size: 2.6em;
 	color: #fff;
 	background: #7D3F98;
@@ -183,18 +183,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	line-height: 1.9em;
 	font-size: 1em;
 }
-.top-grid:before{
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 0;
-	border-right: 0px solid rgba(0, 0, 0, 0);
-	border-bottom: 352px solid rgba(0, 188, 228, 0.44);
-	border-left: 76px solid rgba(60, 128, 168, 0);
-	top: -84.6%;
-	left: 39.7%;
-	transform: rotate(90deg);
-}
+
 .top{
 	background-color: rgba(125, 63, 152, 0.44);
 }
@@ -242,7 +231,7 @@ a i.glyphicon.glyphicon-circle-arrow-right:hover {
 	padding: 4em 0;
 }
 .content-left-top h4{
-	font-size: 1.3em;
+	font-size: 1.1em;
   	font-family: 'Cinzel-Bold';
  	margin: 0.8em 0 0.5em;
 }
@@ -258,7 +247,7 @@ a i.glyphicon.glyphicon-circle-arrow-right:hover {
   line-height: 1.9em;
   font-size: 1em;
 }
-i.glyphicon.glyphicon-ok {
+i.glyphicon.glyphicon-hand-right {
   color: #00BCE4;
   font-size: 0.8em;
   margin: 0 0.5em 0 ;
@@ -381,17 +370,20 @@ ul.social li {
   display: inline-block;
 }
 ul.social li a i {
-  background: url(../images/img-sprite.png) -2px -3px;
-  width: 32px;
-  height: 32px;
+  background: url(../images/img-social.jpg) -3px -5px;
+  width: 39px;
+  height: 39px;
   display: block;
   margin: 0 0.5em;
 }
-ul.social li a i.dribble {
+ul.social li a i.tweet {
   background-position: -47px -3px;
 }
-ul.social li a i.facebook {
+ul.social li a i.in {
   background-position: -87px -3px;
+}
+ul.social li a i.utube {
+  background-position: -128px -3px;
 }
 ul.social li a i:hover{
 	transform: rotatey(-360deg);
@@ -897,7 +889,7 @@ h4.media-heading {
 }
 @media(max-width:768px){
 .logo h1 a {
-  width: 210px;
+  width: 240px;
   height: 180px;
   padding: 1.3em 0 0;
 }
@@ -946,7 +938,7 @@ span.menu{
   width: 33.33%;
   float: left;
 }	
-.glyphicon.glyphicon-book, .glyphicon.glyphicon-time, .glyphicon.glyphicon-edit {
+.glyphicon.glyphicon-cutlery, .glyphicon.glyphicon-camera, .glyphicon.glyphicon-phone-alt {
   font-size: 2em;
   width: 70px;
   height: 70px;
@@ -1095,7 +1087,7 @@ h1.grid2 {
 .caption h3 {
   font-size: 0.9em;
 }	
-.glyphicon.glyphicon-book, .glyphicon.glyphicon-time, .glyphicon.glyphicon-edit {
+.glyphicon.glyphicon-cutlery, .glyphicon.glyphicon-camera, .glyphicon.glyphicon-phone-alt {
   font-size: 1.3em;
   width: 55px;
   height: 55px;
@@ -1212,7 +1204,7 @@ h3.typo1 {
   min-height: 350px;
 }
 .logo  h1 a{
-  width: 175px;
+  width: 180px;
   height: 145px;
   padding: 1.2em 0 0;
 }
