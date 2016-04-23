@@ -320,7 +320,7 @@ i.glyphicon.glyphicon-hand-right {
 /*--address--*/
 .address-grid i{
 	color:#00BCE4;
-	font-size:4em;
+	font-size:3.5em;
 	float: left;
 	margin: 0 9% 0 0;
   	display: inline-block;
@@ -331,7 +331,7 @@ i.glyphicon.glyphicon-hand-right {
   display: inline-block;
 }
 .address1 p{
-	font-size:1.8em;
+	font-size:1.6em;
 	color: #fff;
 	line-height: 1.9em;	
 }
