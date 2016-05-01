@@ -138,11 +138,24 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 /*--//header--*/
  /*--content-top--*/
-.glyphicon.glyphicon-cutlery ,.glyphicon.glyphicon-camera,.glyphicon.glyphicon-phone-alt{
+.glyphicon.glyphicon-cutlery ,.glyphicon.glyphicon-camera,.glyphicon.glyphicon-phone-alt,.icon-pro{
 	font-size: 2.6em;
 	color: #fff;
 	background: #7D3F98;
 	border-radius: 100px;
+	width: 95px;
+	height: 95px;
+	text-align: center;
+	line-height: 2em;
+	border: 5px;
+	border-style: double;
+	border-color: #fff;
+}
+.icon-pro{
+	font-size: 2.6em;
+	color: #fff;
+	background: #EAFCAF;
+	border-radius: 12px;
 	width: 95px;
 	height: 95px;
 	text-align: center;

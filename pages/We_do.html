@@ -14,8 +14,21 @@
 <meta name="keywords" content="Divya Enterprises Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script>
+function show(shown,hidden,hidden1,hidden2,hidden3,hidden4) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  document.getElementById(hidden1).style.display='none';
+  document.getElementById(hidden2).style.display='none';
+  document.getElementById(hidden3).style.display='none';
+  document.getElementById(hidden4).style.display='none';
+
+  return false;
+}
+</script>
+
 <style type="text/css">
-	h2{
+	h2,h4{
 		line-height: 200% !important;
 	}
 </style>
@@ -54,27 +67,174 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--We Do-->
 
 <!--//We Do-->
+<div class="content">
+	<div class="container">
+	    <div class="row">
+	    	<h2>Product List - For Hire</h2>
+	    </div>
+		<div class="row">
+			<div class="col-md-2">
+				<img src="../images/icon/shamiana1.png" class="icon-pro">
+				<a href="#" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6');"><h4>shamiana</h4></a>
+				
+			</div>
+			<div class=" col-md-2 grid-top">
+				<img src="../images/icon/air.png" class="icon-pro">
+				<a href="#" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6');"><h4>Air Cooler</h4></a>
+			</div>
+			<div class=" col-md-2 grid-top">
+				<img src="../images/icon/chairs2.png" class="icon-pro">
+				<a href="#" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6');"><h4>Chairs</h4></a>
+			</div>
+			
+			<div class=" col-md-2 grid-top">
+				<img src="../images/icon/tables1.png" class="icon-pro">
+				<a href="#" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6');"><h4>Tables</h4></a>
+			</div>
+			<div class=" col-md-2 grid-top">
+				<img src="../images/icon/catering.png" class="icon-pro">
+				<a href="#" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6');"><h4>Catering Equipments</h4></a>
+			</div>
+			<div class=" col-md-2 grid-top">
+				<img src="../images/icon/catering.png" class="icon-pro">
+				<a href="#" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5');"><h4>Catering Equipments</h4></a>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="jumbotron">
 	<div class="container">
-	<div class="row">
-		<img src="../images/marriage.jpg" height="200px" class="pull-right img-wedo" style="margin: 10px">
-		<h2>Weddings Events</h2>
-		<p>A wedding planner is a professional who assists with the design, planning and management of a client's wedding. Weddings are significant events in people's lives and as such, couples are often willing to spend considerable amount of money to ensure that their weddings are well-organized. Wedding planners are often used by couples who work long hours and have little spare time available for sourcing and managing wedding venues and wedding suppliers. </p>
+	<div id="Page1" class="row" style="display:none">
+		 <div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/s1.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/s2.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/s3.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/s1.jpg">
+    		</a>
+  		</div>
 	</div>
-	<div class="row">
-		<img src="../images/ipl.jpg" height="200px" class="pull-left img-wedo" style="margin: 10px">
-		<h2>Sports Events</h2>
-		<p>Sports management also opens up other opportunities for jobs in the sports world. This could mean working for professional programs like the NFL, NBA, MLB, NHL, and many other professional or nonprofessional sport leagues in terms of marketing, health, and promotions to getting involved behind the scenes. Going off that there is health and fitness related jobs that allow one to work more closely with just athletes.</p>
+	<div id="Page2" class="row" style="display:none">
+		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f2.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f3.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+    		</a>
+  		</div>
 	</div>
-	<div class="row">
-		<img src="../images/hotel.jpg" height="200px" class="pull-right img-wedo" style="margin: 10px">
-		<h2>Hotels</h2>
-		<p>SLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	<div id="Page2" class="row" style="display:none">
+		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f2.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f3.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+    		</a>
+  		</div>
 	</div>
-	<div class="row">
-		<img src="../images/celebrity.jpg" height="200px" class="pull-left img-wedo" style="margin: 10px">
-		<h2>Celebrity Events</h2>
-		<p>SLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	<div id="Page2" class="row" style="display:none">
+		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f2.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f3.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+     			<div id="Page2" class="row" style="display:none">
+		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f2.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f3.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+     			<div id="Page2" class="row" style="display:none">
+		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f2.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f3.jpg">
+    		</a>
+  		</div>
+  		<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+     			<img src="../images/equip/f1.jpg">
+    		</a>
+  		</div>
+	</div>
+    		</a>
+  		</div>
+	</div>
+    		</a>
+  		</div>
 	</div>
 	</div>
 </div>
