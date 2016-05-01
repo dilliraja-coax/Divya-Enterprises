@@ -28,12 +28,21 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4) {
 </script>
 
 <style type="text/css">
-	h2,h4{
+	h2{
 		line-height: 200% !important;
 	}
+	.col-md-1 {padding-left: 0px !important;}
+	label{text-align: center !important; padding-left: 20px !important;}
+
 	.thumbnail img{
 		height: 200px !important;
+		margin: 0px !important;
 	}
+		.myDiv
+{
+    cursor: pointer;
+
+}
 </style>
 </head>
 <body>
@@ -75,32 +84,30 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4) {
 	    <div class="row">
 	    	<h2>Product List - For Hire</h2>
 	    </div>
-		<div class="row">
-			<div class="col-md-2">
-				<img src="../images/icon/shamiana1.png" class="icon-pro">
-				<a href="#" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6');"><h4>shamiana</h4></a>
-				
+		<div class="row" >
+			<div class="col-md-1 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6');">
+				<img src="../images/icon/shamiana1.png" class="icon-pro"><label>shamiana</label>
 			</div>
-			<div class=" col-md-2 grid-top">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6');">
 				<img src="../images/icon/air.png" class="icon-pro">
-				<a href="#" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6');"><h4>Air Cooler</h4></a>
+				<label>Air Cooler</label>
 			</div>
-			<div class=" col-md-2 grid-top">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6');">
 				<img src="../images/icon/chairs3.png" class="icon-pro">
-				<a href="#" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6');"><h4>Chairs</h4></a>
+				<label>Chairs</label>
 			</div>
 			
-			<div class=" col-md-2 grid-top">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6');">
 				<img src="../images/icon/tables1.png" class="icon-pro">
-				<a href="#" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6');"><h4>Tables</h4></a>
+				<label>Tables</label>
 			</div>
-			<div class=" col-md-2 grid-top">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6');">
 				<img src="../images/icon/fan1.png" class="icon-pro">
-				<a href="#" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6');"><h4>Fans</h4></a>
+				<label>Fans</label>
 			</div>
-			<div class=" col-md-2 grid-top">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5');">
 				<img src="../images/icon/catering.png" class="icon-pro">
-				<a href="#" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5');"><h4>Catering Equipments</h4></a>
+				<label>Catering Equipments</label>
 			</div>
 		</div>
 	</div>
