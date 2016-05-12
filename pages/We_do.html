@@ -2,9 +2,12 @@
 <html>
 <head>
 <title>Divya Enterprises - Events organized suppliers</title>
+<link type="text/css" rel="stylesheet" href="../css/lightslider.css" /> 
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js">
+<script src="../js/lightslider.min.js"></script>
 <!-- Custom Theme files -->
 <!--theme-style-->
 <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />	
@@ -15,34 +18,38 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script>
-function show(shown,hidden,hidden1,hidden2,hidden3,hidden4) {
+function show(shown,hidden,hidden1,hidden2,hidden3,hidden4,hidden5) {
   document.getElementById(shown).style.display='block';
   document.getElementById(hidden).style.display='none';
   document.getElementById(hidden1).style.display='none';
   document.getElementById(hidden2).style.display='none';
   document.getElementById(hidden3).style.display='none';
   document.getElementById(hidden4).style.display='none';
+  document.getElementById(hidden5).style.display='none';
+
 
   return false;
 }
 </script>
-
 <style type="text/css">
 	h2{
 		line-height: 200% !important;
 	}
-	.col-md-1 {padding-left: 0px !important;}
-	label{text-align: center !important; padding-left: 20px !important;}
+ .col-md-1 {padding-left: 50px !important;}
+ .thumbnail{border: 0px solid #00bce4;}
 
 	.thumbnail img{
 		height: 200px !important;
 		margin: 0px !important;
+    vertical-align: middle !important;
+
 	}
 		.myDiv
 {
     cursor: pointer;
-
+    
 }
+
 </style>
 </head>
 <body>
@@ -79,174 +86,252 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4) {
 <!--We Do-->
 
 <!--//We Do-->
-<div class="content">
+
 	<div class="container">
-	    <div class="row">
+	    <div class="row" style="padding-bottom: 20px">
 	    	<h2>Product List - For Hire</h2>
 	    </div>
-		<div class="row" >
-			<div class="col-md-1 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6');">
-				<img src="../images/icon/shamiana1.png" class="icon-pro"><label>shamiana</label>
+		<div class="row" style="padding-bottom: 20px">
+			<div class="col-md-1 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6','con');">
+				<img src="../images/icon/shamiana1.png" class="icon-pro">
+        <span style="padding-left: 15px">shamiana</span>
 			</div>
-			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6');">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6','con');">
 				<img src="../images/icon/air.png" class="icon-pro">
-				<label>Air Cooler</label>
+				<span style="padding-left: 40px">Air</span>
+        <span style="padding-left: 25px">Cooler</span>
+     
 			</div>
-			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6');">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6','con');">
 				<img src="../images/icon/chairs3.png" class="icon-pro">
-				<label>Chairs</label>
+				<span style="padding-left: 25px">Chairs</span>
 			</div>
 			
-			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6');">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6','con');">
 				<img src="../images/icon/tables1.png" class="icon-pro">
-				<label>Tables</label>
+				<span style="padding-left: 23px">Tables</span>
 			</div>
-			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6');">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6','con');">
 				<img src="../images/icon/fan1.png" class="icon-pro">
-				<label>Fans</label>
+				<span style="padding-left: 29px">Fans</span>
 			</div>
-			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5');">
+			<div class="col-md-1 col-md-offset-1 myDiv" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5','con');">
 				<img src="../images/icon/catering.png" class="icon-pro">
-				<label>Catering Equipments</label>
+				<span style="padding-left: 20px">Catering</span>
+        <span style="padding-left: 12px">Equipments</span>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="jumbotron">
-	<div class="container">
-	 <div id="Page1" class="row" style="display:none">
-		 <div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/s1.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/s2.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/s3.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/s1.jpg">
-    		</a>
-  		</div>
-	 </div>
-	 <div id="Page2" class="row" style="display:none">
-		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/a1.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/a2.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/a3.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/a1.jpg">
-    		</a>
-  		</div>
-	 </div>
-	 <div id="Page3" class="row" style="display:none">
-		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/c1.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/c2.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/c3.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/c1.jpg">
-    		</a>
-  		</div>
-	 </div>
-	 <div id="Page4" class="row" style="display:none">
-		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/t1.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/t2.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/t3.jpg">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/equip/t1.jpg">
-          </a>
+<div class="jumbotron" style="background-color: white">
+  <div class="container">
+    <div id="con" class="row" style="display:block;text-align: center">
+      <P>The above listed products for Hire..Please click each product Icon to see different types of products</P>
+    </div>
+  <div id="Page1" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
       </div>
-   </div>
-   <div id="Page5" class="row" style="display:none">
-    <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-          <img src="../images/equip/f1.jpg">
-        </a>
+    </div>
+  </div>
+  <div id="Page2" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
       </div>
-      <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-          <img src="../images/equip/f2.jpg">
-        </a>
+    </div>
+  </div>
+  <div id="Page3" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
       </div>
-      <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-          <img src="../images/equip/f3.jpg">
-        </a>
+    </div>
+  </div>
+ <div id="Page4" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
       </div>
-      <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-          <img src="../images/equip/f1.jpg">
-          </a>
+    </div>
+  </div>
+  <div id="Page5" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
       </div>
-   </div>
-   <div id="Page6" class="row" style="display:none">
-		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/products/2.JPG">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/products/3.JPG">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/products/4.JPG">
-    		</a>
-  		</div>
-  		<div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail">
-     			<img src="../images/products/5.JPG">
-    		</a>
-  		</div>
-	 </div>
-   </div>
+    </div>
+  </div>
+  <div id="Page6" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/4.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/2.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/3.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/5.JPG">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/2.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/5.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/3.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/4.JPG">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel5" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
 		
 <!--address-->

@@ -156,7 +156,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	color: #fff;
 	background: #EAFCAF;
 	border-radius: 12px;
-	width: 95px;
+	width: s95px;
 	height: 95px;
 	text-align: center;
 	line-height: 2em;
@@ -164,6 +164,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	border-style: double;
 	border-color: #fff;
 }
+
 .glyphicon.home1 {
 	background: #00bce4;
 }
@@ -1746,4 +1747,10 @@ h3.typo1 {
     max-width: 100%;
     width=  472px !important;
     height=200px !important;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > .col-md-3 > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
