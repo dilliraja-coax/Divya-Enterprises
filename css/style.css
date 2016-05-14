@@ -1754,3 +1754,21 @@ h3.typo1 {
   max-width: 100%;
   height: auto;
 }
+
+.justified-gallery {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.style1{
+    width: 187px;
+    height: 126.144px;
+    top: 6px;
+    left: 194px;
+    opacity: 1;
+}
