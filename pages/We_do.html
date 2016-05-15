@@ -48,9 +48,10 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4,hidden5) {
  .thumbnail{border: 0px solid #00bce4;}
 
 	.thumbnail img{
-		height: 200px !important;
+		height: 300px !important;
 		margin: 0px !important;
     vertical-align: middle !important;
+    background-color: #EAEAEA !important;
 
 	}
 		.myDiv
@@ -95,12 +96,12 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4,hidden5) {
 <!--We Do-->
 
 <!--//We Do-->
-
+<div class="jumbotron" style="background-color: #52087D;color: white;margin: 0px;padding: 5px">
 	<div class="container">
-	    <div class="row" style="padding-bottom: 20px">
-	    	<h2>Product List - For Hire</h2>
+	    <div class="row" style="padding-bottom: 5px;padding-top: 5px">
+	    	<h2>PRODUCT LIST - For Hire</h2>
 	    </div>
-		<div class="row" style="padding-bottom: 20px">
+		<div class="row" style="padding-bottom: 5px">
 			<div class="col-md-1 col-xs-6 col-sm-4 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6','con');">
 				<img src="../images/icon/shamiana1.png" class="icon-pro">
         <span style="padding-left: 15px">shamiana</span>
@@ -113,7 +114,7 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4,hidden5) {
 			</div>
 			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6','con');">
 				<img src="../images/icon/chairs3.png" class="icon-pro">
-				<span style="padding-left: 25px">Chairs</span>
+		 		<span style="padding-left: 25px">Chairs</span>
 			</div>
 			
 			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6','con');">
@@ -131,7 +132,8 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4,hidden5) {
 			</div>
 		</div>
 	</div>
-<div class="jumbotron" style="background-color: white">
+</div>
+<div class="jumbotron" style="margin: 0px">
   <div class="container">
     <div id="con" class="row" style="display:block;text-align: center">
       <P>The above listed products for Hire..Please click each product Icon to see different types of products</P>
@@ -142,7 +144,7 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4,hidden5) {
      <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="container thumbnail">
+            <div class="container thumbnail" style="background-color: #EAEAEA">
               <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
               <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
               <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
