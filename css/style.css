@@ -1754,21 +1754,13 @@ h3.typo1 {
   max-width: 100%;
   height: auto;
 }
+.icon-light{
 
-.justified-gallery {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+	border-radius: 12px;
+	border: 10px;
+	border-style: double;
+	border-color: #000;
 }
-.list-unstyled {
-    padding-left: 0;
-    list-style: none;
-}
+.img-circle{width: 200px}
 
-.style1{
-    width: 187px;
-    height: 126.144px;
-    top: 6px;
-    left: 194px;
-    opacity: 1;
-}
+
