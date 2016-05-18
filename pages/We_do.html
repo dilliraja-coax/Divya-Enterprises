@@ -2,9 +2,12 @@
 <html>
 <head>
 <title>Divya Enterprises - Events organized suppliers</title>
+<link type="text/css" rel="stylesheet" href="../css/lightslider.css" /> 
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/lightslider.min.js"></script>
 <!-- Custom Theme files -->
 <!--theme-style-->
 <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />	
@@ -14,10 +17,49 @@
 <meta name="keywords" content="Divya Enterprises Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="text/javascript">$(document).ready(function() {
+
+  $Divs = $(".icon-pro");
+
+  $Divs.click(function() {
+    $Divs.removeClass("icon-light");
+    $(this).addClass("icon-light");
+
+  });
+});
+</script>
+<script>
+function show(shown,hidden,hidden1,hidden2,hidden3,hidden4,hidden5) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  document.getElementById(hidden1).style.display='none';
+  document.getElementById(hidden2).style.display='none';
+  document.getElementById(hidden3).style.display='none';
+  document.getElementById(hidden4).style.display='none';
+  document.getElementById(hidden5).style.display='none';
+  return false;
+}
+</script>
 <style type="text/css">
 	h2{
 		line-height: 200% !important;
 	}
+ .col-md-1{padding-left: 50px !important;}
+ .thumbnail{border: 0px solid #00bce4;}
+
+	.thumbnail img{
+		height: 300px !important;
+		margin: 0px !important;
+    vertical-align: middle !important;
+    background-color: #EAEAEA !important;
+
+	}
+		.myDiv
+{
+    cursor: pointer;
+    
+}
+
 </style>
 </head>
 <body>
@@ -54,29 +96,253 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--We Do-->
 
 <!--//We Do-->
-<div class="jumbotron">
+<div class="jumbotron" style="background-color: #52087D;color: white;margin: 0px;padding: 5px">
 	<div class="container">
-	<div class="row">
-		<img src="../images/marriage.jpg" height="200px" class="pull-right img-wedo" style="margin: 10px">
-		<h2>Weddings Events</h2>
-		<p>A wedding planner is a professional who assists with the design, planning and management of a client's wedding. Weddings are significant events in people's lives and as such, couples are often willing to spend considerable amount of money to ensure that their weddings are well-organized. Wedding planners are often used by couples who work long hours and have little spare time available for sourcing and managing wedding venues and wedding suppliers. </p>
+	    <div class="row" style="padding-bottom: 5px;padding-top: 5px">
+	    	<h2>PRODUCT LIST - For Hire</h2>
+	    </div>
+		<div class="row" style="padding-bottom: 5px">
+			<div class="col-md-1 col-xs-6 col-sm-4 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6','con');">
+				<img src="../images/icon/shamiana1.png" class="icon-pro">
+        <span style="padding-left: 15px">shamiana</span>
+			</div>
+			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6','con');">
+				<img src="../images/icon/air.png" class="icon-pro">
+				<span style="padding-left: 40px">Air</span>
+        <span style="padding-left: 25px">Cooler</span>
+     
+			</div>
+			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6','con');">
+				<img src="../images/icon/chairs3.png" class="icon-pro">
+		 		<span style="padding-left: 25px">Chairs</span>
+			</div>
+			
+			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6','con');">
+				<img src="../images/icon/tables1.png" class="icon-pro">
+				<span style="padding-left: 23px">Tables</span>
+			</div>
+			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6','con');">
+				<img src="../images/icon/fan1.png" class="icon-pro">
+				<span style="padding-left: 29px">Fans</span>
+			</div>
+			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5','con');">
+				<img src="../images/icon/catering.png" class="icon-pro">
+				<span style="padding-left: 20px">Catering</span>
+        <span style="padding-left: 12px">Equipments</span>
+			</div>
+		</div>
 	</div>
-	<div class="row">
-		<img src="../images/ipl.jpg" height="200px" class="pull-left img-wedo" style="margin: 10px">
-		<h2>Sports Events</h2>
-		<p>Sports management also opens up other opportunities for jobs in the sports world. This could mean working for professional programs like the NFL, NBA, MLB, NHL, and many other professional or nonprofessional sport leagues in terms of marketing, health, and promotions to getting involved behind the scenes. Going off that there is health and fitness related jobs that allow one to work more closely with just athletes.</p>
-	</div>
-	<div class="row">
-		<img src="../images/hotel.jpg" height="200px" class="pull-right img-wedo" style="margin: 10px">
-		<h2>Hotels</h2>
-		<p>SLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	</div>
-	<div class="row">
-		<img src="../images/celebrity.jpg" height="200px" class="pull-left img-wedo" style="margin: 10px">
-		<h2>Celebrity Events</h2>
-		<p>SLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	</div>
-	</div>
+</div>
+<div class="jumbotron" style="margin: 0px">
+  <div class="container">
+    <div id="con" class="row" style="display:block;text-align: center">
+      <P>The above listed products for Hire..Please click each product Icon to see different types of products</P>
+    </div>
+  <div id="Page1" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail" style="background-color: #EAEAEA">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+      </div>
+    </div>
+  </div>
+  <div id="Page2" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+      </div>
+    </div>
+  </div>
+  <div id="Page3" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+      </div>
+    </div>
+  </div>
+ <div id="Page4" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t2.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t3.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+      </div>
+    </div>
+  </div>
+  <div id="Page5" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+      </div>
+    </div>
+  </div>
+  <div id="Page6" class="row" style="display:none">
+    <div class="container">
+      <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+     <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/4.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/2.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/3.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/5.JPG">
+            </div>
+         </div>
+          <div class="item">
+            <div class="container thumbnail">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/2.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/5.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/3.JPG">
+              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/4.JPG">
+            </div>
+          </div>
+        </div>
+     <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel5" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
 		
 <!--address-->
