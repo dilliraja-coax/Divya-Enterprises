@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
     $nameErr = "Name is required";
   } else {
-	  if (ctype_alpha($_POST['name']) == false) {
+	  if (!preg_match("/^[a-zA-Z ]*$/",$_POST["name"])) {
 			$nameErr = 'Name must contains only letters';
 		}
    $name = test_input($_POST["name"]);
@@ -31,13 +31,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		}	  
 	  $contact = test_input($_POST["contact"]);
 }
-  
+ /* 
   if (empty($_POST["message"])) {
     $messageErr = "Message is required";
   } else {
     $message = test_input($_POST["message"]);
   }
-if( !($name=='') && !($email=='') && !($contact=='') &&!($message=='') )
+  */
+if( !($name=='') && !($email=='') && !($contact=='') )
 { // Checking valid email.
 if (preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
 {

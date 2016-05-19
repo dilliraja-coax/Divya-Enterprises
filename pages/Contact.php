@@ -65,37 +65,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h2>Contact Us</h2>
 					</div>	
 					<div class="map">
-				<!--	
+					
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0975067521963!2d80.26167081435425!3d13.02946231713241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267ce6be1093d%3A0xd8f4b5799727d815!2sDivya+Enterprises!5e0!3m2!1sen!2sin!4v1461230008929" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-			 -->
+			 
 			 </div>
 			 <div class="contact-bottom" >
 
 				 <form id="form" method="post" action="Contact.php">
 				 
 				<div>
-							<input id="name" type="text" name="name" placeholder="Name" style="display: inline-block;">	
+							<input id="name" type="text" name="name" placeholder="Name" style="display: inline-block;" required>	
 							<p class="error" style="display: inline-block;"> <?php echo $nameErr;?></p>
 				</div>	
 				
 				<div>
-					<input id="email" type="text" name="email" placeholder="Email Address" style="display: inline-block;">	
+					<input id="email" type="text" name="email" placeholder="Email Address" style="display: inline-block;" required>	
 					<p class="error" style="display: inline-block;"> <?php echo $emailErr;?></p>
 					
 				</div>
 					
 				<div>	
 				
-					<input id="contact" type="text" name="contact" placeholder="Phone Number" style="display: inline-block;">
+					<input id="contact" type="text" name="contact" placeholder="Phone Number" style="display: inline-block;" required>
 					<p class="error" style="display: inline-block;"> <?php echo $contactErr;?></p>
 					
 				</div>
 				
 				<div>
 				
-					<textarea id="message" name="message" placeholder="Message" style="display: inline-block;"></textarea>
+					<textarea id="message" name="message" placeholder="Message" style="display: inline-block;" maxlength="150"></textarea>				
+					<!--
 					<p class="error" style="display: inline-block;"> <?php echo $messageErr;?></p>
-					
+					-->
 				</div>	
 					
 					<input class="submit" type="submit" name="submit" value="Submit">
