@@ -126,8 +126,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 address-grid ">
 					<i class="glyphicon glyphicon-phone"></i>
 						<div class="address1">
-							<p>9840343065</p>
-							<p>9840157755</p>
+							<p>+91 9840343065</p>
+							<p>+91 9840157755</p>
 						</div>
 					<div class="clearfix"> </div>
 				</div>
