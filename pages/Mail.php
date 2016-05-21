@@ -50,7 +50,7 @@ Name: $name<br>
 E-mail: $email<br>
 Contact No: $contact<br>
 Message: $message <br> <br> Thanks,<br> COAX TEAM";
-$message1  = "Hi $name <br><br>We will contact you as soon as possible<br><br> Thanks,<br>Divya Enterprises";
+$message1  = "Hi $name, <br><br>Thanks for contacting us..! <br> <br> We will contact you as soon as possible.<br><br> Regards,<br>Divya Enterprises";
 $headers  = 'From: [testmail.coax@gmail.com' . "\r\n" .
             'MIME-Version: 1.0' . "\r\n" .
             'Content-type: text/html; charset=utf-8';
