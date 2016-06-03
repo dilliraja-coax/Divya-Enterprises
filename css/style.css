@@ -138,7 +138,8 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 /*--//header--*/
  /*--content-top--*/
-.glyphicon.glyphicon-cutlery ,.glyphicon.glyphicon-camera,.glyphicon.glyphicon-phone-alt,.icon-pro{
+.glyphicon.glyphicon-cutlery ,.glyphicon.glyphicon-camera,.glyphicon.glyphicon-phone-alt,.icon-pro,
+.glyphicon-van{
 	font-size: 2.6em;
 	color: #fff;
 	background: #7D3F98;
@@ -345,7 +346,7 @@ i.glyphicon.glyphicon-hand-right {
   display: inline-block;
 }
 .address1 p{
-	font-size:1.6em;
+	font-size:1.4em;
 	color: #fff;
 	line-height: 1.9em;	
 }
@@ -955,7 +956,7 @@ span.menu{
   width: 33.33%;
   float: left;
 }	
-.glyphicon.glyphicon-cutlery, .glyphicon.glyphicon-camera, .glyphicon.glyphicon-phone-alt {
+.glyphicon.glyphicon-cutlery, .glyphicon.glyphicon-camera, .glyphicon.glyphicon-phone-alt,.glyphicon.glyphicon-van {
   font-size: 2em;
   width: 70px;
   height: 70px;
@@ -1104,7 +1105,7 @@ h1.grid2 {
 .caption h3 {
   font-size: 0.9em;
 }	
-.glyphicon.glyphicon-cutlery, .glyphicon.glyphicon-camera, .glyphicon.glyphicon-phone-alt {
+.glyphicon.glyphicon-cutlery, .glyphicon.glyphicon-camera, .glyphicon.glyphicon-phone-alt,.glyphicon.glyphicon-van {
   font-size: 1.3em;
   width: 55px;
   height: 55px;
@@ -1765,6 +1766,12 @@ h3.typo1 {
 	border-color: #000;
 }
 .img-circle{width: 200px}
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+    cursor: -moz-zoom-out;
+    cursor: -webkit-zoom-out;
+    cursor: pointer !important;
+}
 
 
 

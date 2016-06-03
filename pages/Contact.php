@@ -1,3 +1,5 @@
+<?php include 'Mail.php';?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,14 +7,27 @@
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery.min.js"></script>
+<!--
+<script src="../js/contact.js"></script>
+
+-->
 <!-- Custom Theme files -->
 <!--theme-style-->
+<style>
+.error {color: #FF0000;}
+</style>
+<style>
+.success {color: #3A9625;}
+</style>
 <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Scientist Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="Description" content="Divya Enterprises in Mandaveli, Chennai. Hire furniture and equipments for weddings, corporate events, meetings, cocktail and dinner parties. 
+We provide tables and chairs, catering equipments, crockery and themed furniture. Contact a perfect Event planner @ 9840343065"/>
+<meta name="keywords" content="Wedding Product For Hire, Event Hire, Equipments Hire, Tiffany Chairs, Bentwood Chairs, Wedding Chairs, Tolix Chairs, Ghost Chairs, Navy Stools, 
+New York Bar Tables, Tait Bar Tables, Banquet Tables, Trestle Tables, Riedel Glassware, Plumm Glassware, Bogart Cutlery, 
+Rustic Furniture, Industrial Furniture, French Furniture, Provincial Furniture, Coastal Furniture"/>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
@@ -31,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="We_do.html" class="hvr-sweep-to-bottom">We Do</a></li>
 					<li><a href="About_us.html" class="hvr-sweep-to-bottom ">About Us</a></li>
 					<li><a href="Gallery.html" class="hvr-sweep-to-bottom ">Gallery</a></li>
-					<li class="active"><a href="contact_us.html" class="hvr-sweep-to-bottom">Contact Us</a></li>
+					<li class="active"><a href="Contact.php" class="hvr-sweep-to-bottom">Contact Us</a></li>
 				</ul>
 				<div class="clearfix"> </div>
 						<!--script-->
@@ -55,35 +70,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="map">
 					
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0975067521963!2d80.26167081435425!3d13.02946231713241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267ce6be1093d%3A0xd8f4b5799727d815!2sDivya+Enterprises!5e0!3m2!1sen!2sin!4v1461230008929" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			 
 			 </div>
 			 <div class="contact-bottom" >
-		 
-				  <form id="form" method="post" action="#">
+
+				 <form id="form" method="post" action="Contact.php">
 				 
 				<div>
-							<input id="name" type="text" name="name" placeholder="Name" style="display: inline-block;">	
-							
+							<input id="name" type="text" name="name" placeholder="Name" style="display: inline-block;" required>	
+							<p class="error" style="display: inline-block;"> <?php echo $nameErr;?></p>
 				</div>	
 				
 				<div>
-					<input id="email" type="text" name="email" placeholder="Email Address" style="display: inline-block;">	
-				
+					<input id="email" type="text" name="email" placeholder="Email Address" style="display: inline-block;" required>	
+					<p class="error" style="display: inline-block;"> <?php echo $emailErr;?></p>
+					
+				</div>
 					
 				<div>	
-					<input id="contact" type="text" name="contact" placeholder="Phone Number" style="display: inline-block;">
+				
+					<input id="contact" type="text" name="contact" placeholder="Phone Number" style="display: inline-block;" required>
+					<p class="error" style="display: inline-block;"> <?php echo $contactErr;?></p>
 					
 				</div>
 				
 				<div>
-					<textarea id="message" name="message" placeholder="Message" style="display: inline-block;"></textarea>
-					
+				
+					<textarea id="message" name="message" placeholder="Message" style="display: inline-block;" maxlength="150"></textarea>				
+					<!--
+					<p class="error" style="display: inline-block;"> <?php echo $messageErr;?></p>
+					-->
 				</div>	
 					
-					<input id="submit" type="submit" value="Submit">
+					<input class="submit" type="submit" name="submit" value="Submit">
 					
+					<b> <span class="success"> <?php echo $successMessage;?> </span> </b>
 					
+				
 				</form>	
-			</div>				
+			</div>			
 		</div>
 			</div>
 
@@ -104,8 +129,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 address-grid ">
 					<i class="glyphicon glyphicon-phone"></i>
 						<div class="address1">
-							<p>9840343065</p>
-							<p>9840157755</p>
+							<p>+91 9840343065</p>
+							<p>+91 9840157755</p>
 						</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -142,5 +167,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 	</div>
 </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78703614-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
