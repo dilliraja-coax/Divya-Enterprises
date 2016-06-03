@@ -1772,6 +1772,12 @@ h3.typo1 {
     cursor: -webkit-zoom-out;
     cursor: pointer !important;
 }
-
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 450px;
+    overflow-y: auto;
+}
 
 
