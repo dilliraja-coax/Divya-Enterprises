@@ -1779,5 +1779,19 @@ h3.typo1 {
     height: 450px;
     overflow-y: auto;
 }
+.border-pro{
+	width: 250px;
+	border-style:  solid solid;
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-width: 15px 4px;
+	color: white;
+	cursor: pointer;
+	border-color: #52087D;
+	background-color: #52087D;
+	text-align: center;
+	font-size: 1.1em;
+	text-decoration: underline;
+}
 
 

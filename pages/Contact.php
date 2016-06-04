@@ -73,10 +73,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!---->
 </div>
 <!--contact-->
+<div class="jumbotron" style="margin: 0px;padding: 0px">
 <div class="container">
 				<div class="contact">
 					<div class="contact-top">
-						<h2>Contact Us</h2>
+						<h2 style="padding-bottom: 15px; text-align: center;font-size: 2.5em">CONTACT US</h2>
 					</div>	
 					<div class="map">
 					
@@ -121,6 +122,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</form>	
 			</div>			
 		</div>
+			</div>
 			</div>
 
 <!--address-->
