@@ -2,12 +2,11 @@
 <html>
 <head>
 <title>Divya Enterprises-Furniture, Catrering & Other event equipments on hire, Chennai</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins<!-- Custom Theme files -->
+<script src="../js/jquery.min.js"></script>
 <!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <meta name="google-site-verification" content="uANK6VKr7Pd3e1QfX0b6R2cgpoO7MaKw7Fnw4r55yjg" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +36,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MSC3CC');</script>
 <!-- End Google Tag Manager -->
 <!--header-->
-<div class="header">
+<div class="header header-top">
 	<div class="container">
 		<div class="logo">
 		<h1><a>
@@ -45,13 +44,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</a></h1>
 		</div>
 		<div class="top-nav">
-			<span class="menu"><img src="images/menu.png" alt=""> </span>
+			<span class="menu"><img src="../images/menu.png" alt=""> </span>
 				<ul>
-					<li class="active"><a href="Home.html">Home</a></li>
-					<li><a href="pages/Our_Products.html" class="hvr-sweep-to-bottom">Our Products</a></li>
-					<li><a href="pages/About_us.html" class="hvr-sweep-to-bottom ">About Us</a></li>
-					<li><a href="pages/Gallery.html" class="hvr-sweep-to-bottom ">Gallery</a></li>
-					<li><a href="pages/Contact.php" class="hvr-sweep-to-bottom">Contact Us</a></li>
+					<li><a href="../index" class="hvr-sweep-to-bottom">Home</a></li>
+					<li><a href="Our_Products" >Our Products</a></li>
+					<li class="active"><a href="About_us" class="hvr-sweep-to-bottom ">About Us</a></li>
+					<li><a href="Gallery" class="hvr-sweep-to-bottom ">Gallery</a></li>
+					<li><a href="Contact" class="hvr-sweep-to-bottom">Contact Us</a></li>
 				</ul>
 				<div class="clearfix"> </div>
 						<!--script-->
@@ -66,71 +65,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 <!---->
 </div>
-<div class="content">
+<!--blog-->
+<div class="jumbotron" style="margin: 0px">
+	<h2 style="padding-bottom: 15px; text-align: center;font-size: 2.5em;font-family: 'Cinzel-Regular';">ABOUT US</h2>
 	<div class="container">
-		<!--content-top-->
-		<div class="content-top">
-			<div class="content-top1">
-			  	<div class=" col-md-4 grid-top">
-					<div class="top-grid">
-					 <a href="pages/Our_Products.html"><i class="glyphicon glyphicon-cutlery"></i></a>
-					  <div class="caption">
-						<h3 style="font-weight: bold;color: darkmagenta; padding-top: 5px ">What We Serve</h3>
-						<p> Hire the best products at eye poping price. Customer service is at the center of our thinking.</p>
-					 </div>
-				</div>
-				</div>
-				<div class=" col-md-4 grid-top">
-					<div class="top-grid top">
-					 <a href="pages/Gallery.html"><i class="glyphicon glyphicon-camera home1 "></i></a>
-					  <div class="caption">
-						<h3 style="font-weight: bold;color: mediumblue; padding-top: 5px ">Products Shoot</h3>
-						<p> All function party order undertaken for Hire. We provides custom wedding and catering equipments rentals.</p>
-					  </div>
-					</div>
-				</div>
-				<div class=" col-md-4 grid-top">
-					<div class="top-grid">
-					 <a href="pages/Contact.php"><img  class="glyphicon glyphicon-van" src="images/icon/van.png"></a>
-					  <div class="caption">
-						<h3 style="font-weight: bold;color: darkmagenta; padding-top: 5px ">Reach us at any cost</h3>
-						<p>Avail our 24x7 telephonic service for Event support or any other assistance, even on holidays.</p>
-					  </div>
-					</div>
-				</div>
-			<div class="clearfix"> </div>
-		</div>
-		</div>
-		<!--//content-top-->
-		
-		<!--content-left-->
-		<div class="content-left">
-			<div class="col-md-4 content-left-top">
-				<a href="pages/Gallery.html"><img class="img-responsive" style="width:350px; height: 234px" src="images/h1.jpg" alt=""></a>
-				<div class=" content-left-bottom">
-					<h4><i class="glyphicon glyphicon-hand-right"></i><a href="pages/Gallery.html">Our Foot Prints in Weddings</h4>			
-				</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="../images/proprietors/user1.jpg" class="img-circle">
 			</div>
-			<div class="col-md-4 content-left-top">
-				<a href="pages/Gallery.html"><img class="img-responsive" src="images/h2.jpg" alt=""></a>
-				<div class=" content-left-bottom">
-					<h4><i class="glyphicon glyphicon-hand-right"></i><a href="pages/Gallery.html">Our Foot Prints in Events</a></h4>			
-				</div>
+			<div class="col-md-8" style="padding-top: 35px">
+				<P>Established in 1980, Our vision is to provide the finest quality products to hire along with first class customer service to the event, hotel, marquee and hospitality industries, along with members of the public.Whatever event you are planning, whether it be a wedding, conference, exhibition, corporate event or family event at home, we offer a one-stop shop to fulfil all your requirements.</P>
 			</div>
-			<div class="col-md-4 content-left-top">
-				<a href="pages/Gallery.html"><img class="img-responsive" src="images/h3.jpg" alt=""></a>
-				<div class=" content-left-bottom">
-					<h4><i class="glyphicon glyphicon-hand-right"></i><a href="pages/Gallery.html">Our Foot Prints in Party
-					</a></h4>				
-				</div>
-			</div>
-			<div class="clearfix"> </div>
 		</div>
-		<!--//content-left-->
+			<div class="row" style="padding-top: 30px">
+			<div class="col-md-3 col-md-offset-1 col-md-push-8">
+				<img src="../images/proprietors/user2.jpg" class="img-circle">
+			</div>
+			<div class="col-md-8 col-md-pull-4" style="padding-top: 35px">
+				<P>We can provide a complete supply and set up service for large indoor events and outdoor events. We can also supply indoor and outdoor events equipments and concerts in accordance with current Health & Safety regulations. Working from client-produced plans, table set-ups for trade and craft fairs, exhibitions, product launches or banquets can be undertaken to meet even the most stringent of deadlines.</P>
+			</div>
+		</div>
 	</div>
-	
-	
-	<!--address-->
+</div>	
+<!--//blog-->
+<!--address-->
 
 	<div class="address">
 		<div class="container">
