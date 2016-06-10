@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
+Options +FollowSymLinks -MultiViews
 RewriteEngine On
 
+RewriteCond %{HTTP_HOST} ^divyaenterprises.herokuapp.com
 RewriteBase /
 RewriteRule ^pages/(.*)$ /$1 [L,NC,R]
 
