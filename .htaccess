@@ -1,9 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-RewriteRule ^$ pages/
-RewriteCond %{REQUEST_FILENAME} !-f 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteRule ^(.*)$ pages/$1
+RewriteCond %{REQUEST_URI} !^pages/
+RewriteRule ^(.*)$ pages/$1 [L]
 
 </IfModule>
