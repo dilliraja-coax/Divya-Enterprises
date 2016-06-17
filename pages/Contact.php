@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" 
+      type="image/png" 
+      href="../images/favicon.png">
 <title>Divya Enterprises-Furniture, Catrering & Other event equipments on hire, Chennai</title>
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -89,19 +92,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				 <form id="form" method="post" action="Contact.php">
 				 
 				<div>
-							<input id="name" type="text" name="name" placeholder="Name" style="display: inline-block;" required>	
+							<input onclick="myFunction()" id="name" type="text" name="name" placeholder="Name" style="display: inline-block;" required>	
 							<p class="error" style="display: inline-block;"> <?php echo $nameErr;?></p>
 				</div>	
 				
 				<div>
-					<input id="email" type="text" name="email" placeholder="Email Address" style="display: inline-block;" required>	
+					<input onclick="myFunction()" id="email" type="text" name="email" placeholder="Email Address" style="display: inline-block;" required>	
 					<p class="error" style="display: inline-block;"> <?php echo $emailErr;?></p>
 					
 				</div>
 					
 				<div>	
 				
-					<input id="contact" type="text" name="contact" placeholder="Phone Number" style="display: inline-block;" required>
+					<input onclick="myFunction()" id="contact" type="text" name="contact" placeholder="Phone Number" style="display: inline-block;" required>
 					<p class="error" style="display: inline-block;"> <?php echo $contactErr;?></p>
 					
 				</div>
@@ -114,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					-->
 				</div>	
 					
-					<input class="submit" type="submit" name="submit" value="Submit">
+					<input onclick="myFunction()" class="submit" type="submit" name="submit" value="Submit">
 					
 					<b> <span class="success"> <?php echo $successMessage;?> </span> </b>
 					
@@ -180,5 +183,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="clearfix"> </div>
 	</div>
 </div>
+<script>
+function myFunction() {
+    document.getElementById("myText").select();
+}
+</script>
 </body>
 </html>

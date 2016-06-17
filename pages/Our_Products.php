@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" 
+      type="image/png" 
+      href="../images/favicon.png">
 <title>Divya Enterprises-Furniture, Catrering & Other event equipments on hire, Chennai</title>
 <link type="text/css" rel="stylesheet" href="../css/lightslider.css" /> 
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -49,14 +52,25 @@ function show(shown,hidden,hidden1,hidden2,hidden3,hidden4,hidden5) {
 	}
  .col-md-1{padding-left: 50px !important;}
  .thumbnail{border: 0px solid #00bce4;}
-
-	.thumbnail img{
+img.icon-pro{
+  vertical-align: middle !important;
+  display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+	img.thumbnail{
 		height: 300px !important;
 		margin: 0px !important;
     vertical-align: middle !important;
     background-color: #EAEAEA !important;
+    cursor: pointer;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
 
 	}
+  P{text-align: center; margin-bottom: 0px !important;}
+  
 		.myDiv
 {
     cursor: pointer;
@@ -96,11 +110,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="top-nav">
 			<span class="menu"><img src="../images/menu.png" alt=""> </span>
 				<ul>
-					<li><a href="../index" class="hvr-sweep-to-bottom">Home</a></li>
-					<li class="active"><a href="Our_Products" >Our Products</a></li>
-					<li><a href="About_us" class="hvr-sweep-to-bottom ">About Us</a></li>
-					<li><a href="Gallery" class="hvr-sweep-to-bottom ">Gallery</a></li>
-					<li><a href="Contact" class="hvr-sweep-to-bottom">Contact Us</a></li>
+					<li><a href="../Home.html" class="hvr-sweep-to-bottom">Home</a></li>
+					<li class="active"><a href="Our_Products.html" >Our Products</a></li>
+					<li><a href="About_us.html" class="hvr-sweep-to-bottom ">About Us</a></li>
+					<li><a href="Gallery.html" class="hvr-sweep-to-bottom ">Gallery</a></li>
+					<li><a href="Contact.php" class="hvr-sweep-to-bottom">Contact Us</a></li>
 				</ul>
 				<div class="clearfix"> </div>
 						<!--script-->
@@ -276,31 +290,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 	    </div>
 		<div class="row" style="padding-bottom: 5px">
-    <div class="col-md-1 col-xs-6 col-sm-4 myDiv" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6','con');">
+    <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6','con');">
         <img src="../images/icon/air.png" class="icon-pro">
-        <span style="padding-left: 40px">Air</span>
-        <span style="padding-left: 25px">Cooler</span>
+        <P>Air</P>
+        <P>Cooler</P>
          </div>
-         <div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6','con');">
-        <img src="../images/icon/chairs3.png" class="icon-pro">
-        <span style="padding-left: 25px">Chairs</span>
-      </div>
-      <div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5','con');">
+         <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5','con');">
         <img src="../images/icon/catering.png" class="icon-pro">
-        <span style="padding-left: 20px">Catering</span>
-        <span style="padding-left: 12px">Equipments</span>
+        <P>Catering</P>
+        <P>Equipments</P>
       </div>
-      <div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6','con');">
+         <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6','con');">
+        <img src="../images/icon/chairs3.png" class="icon-pro">
+        <P>Chairs</P>
+      </div>
+      
+      <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6','con');">
         <img src="../images/icon/fan1.png" class="icon-pro">
-        <span style="padding-left: 29px">Fans</span>
+        <P>Fans</P>
       </div>
-			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6','con');">
+			<div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6','con');">
 				<img src="../images/icon/shamiana1.png" class="icon-pro">
-        <span style="padding-left: 15px">shamiana</span>
+        <P>shamiana</P>
 			</div>			
-			<div class="col-md-1 col-xs-6 col-sm-4 col-md-offset-1 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6','con');">
+			<div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6','con');">
 				<img src="../images/icon/tables1.png" class="icon-pro">
-				<span style="padding-left: 23px">Tables</span>
+				<P>Tables</P>
 			</div>
 			
 		</div>
@@ -330,19 +345,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="container thumbnail" style="background-color: #EAEAEA">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200" src="../images/equip/s1.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200" src="../images/equip/s2.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200" src="../images/equip/s3.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
          </div>
           <div class="item">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/s1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/s5.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/s6.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/s7.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -364,19 +397,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a2.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a3.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/a1.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/a2.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/a3.jpg">
+                <P>Sample Text</P>
+              </div>
             </div>
          </div>
           <div class="item">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a2.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a3.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/a1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/a1.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/a2.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/a3.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -398,19 +448,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c2.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c3.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c1.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c2.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c3.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
          </div>
           <div class="item">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c2.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c3.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/c1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c4.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c5.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c6.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -432,19 +500,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t2.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t3.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/t1.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/t2.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/t3.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
          </div>
           <div class="item">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t2.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t3.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/t1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/t1.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/t2.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/t3.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -466,19 +552,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/f1.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/f2.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/f3.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
          </div>
           <div class="item">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/equip/f1.jpg">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/f4.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/f3.jpg">
+                <P>Sample Text</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/f1.jpg">
+                <P>Sample Text</P>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -500,19 +604,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/4.JPG">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/2.JPG">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/3.JPG">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/5.JPG">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/2.jpg">
+                <P>Chafing dish</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/3.jpg">
+                <P>Full food container</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/4.jpg">
+                <P>Half food container</P>
+              </div>
             </div>
          </div>
           <div class="item">
-            <div class="container thumbnail">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/2.JPG">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/5.JPG">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/3.JPG">
-              <img class='col-xs-12 col-sm-6 col-md-3' src="../images/products/4.JPG">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/5.jpg">
+                <P>Cup, Knife, Fork, Spoon</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/6.jpg">
+                <P>Oval ss plater</P>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/7.jpg">
+                <P>Sauce pan</P>
+              </div>
             </div>
           </div>
         </div>

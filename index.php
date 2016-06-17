@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.png">
 <title>Divya Enterprises-Furniture, Catrering & Other event equipments on hire, Chennai</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
