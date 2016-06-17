@@ -606,15 +606,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="item active">
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
-                <img class='thumbnail' width="300" height="200"  src="../images/products/2.jpg">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/2.JPG">
                 <P>Chafing dish</P>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
-                <img class='thumbnail' width="300" height="200"  src="../images/products/3.jpg">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/3.JPG">
                 <P>Full food container</P>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
-                <img class='thumbnail' width="300" height="200"  src="../images/products/4.jpg">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/4.JPG">
                 <P>Half food container</P>
               </div>
             </div>
@@ -622,15 +622,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="item">
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
-                <img class='thumbnail' width="300" height="200"  src="../images/products/5.jpg">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/5.JPG">
                 <P>Cup, Knife, Fork, Spoon</P>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
-                <img class='thumbnail' width="300" height="200"  src="../images/products/6.jpg">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/6.JPG">
                 <P>Oval ss plater</P>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
-                <img class='thumbnail' width="300" height="200"  src="../images/products/7.jpg">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/7.JPG">
                 <P>Sauce pan</P>
               </div>
             </div>
