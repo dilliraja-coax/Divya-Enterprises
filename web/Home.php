@@ -51,10 +51,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<span class="menu"><img src="images/menu.png" alt=""> </span>
 				<ul>
 					<li class="active"><a href="../index">Home</a></li>
-					<li><a href="Our_Products" class="hvr-sweep-to-bottom">Our Products</a></li>
-					<li><a href="About_us" class="hvr-sweep-to-bottom ">About Us</a></li>
-					<li><a href="Gallery" class="hvr-sweep-to-bottom ">Gallery</a></li>
-					<li><a href="Contact" class="hvr-sweep-to-bottom">Contact Us</a></li>
+					<li><a href="web/Our_Products" class="hvr-sweep-to-bottom">Our Products</a></li>
+					<li><a href="web/About_us" class="hvr-sweep-to-bottom ">About Us</a></li>
+					<li><a href="web/Gallery" class="hvr-sweep-to-bottom ">Gallery</a></li>
+					<li><a href="web/Contact" class="hvr-sweep-to-bottom">Contact Us</a></li>
 				</ul>
 				<div class="clearfix"> </div>
 						<!--script-->
