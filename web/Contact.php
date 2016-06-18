@@ -185,7 +185,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <script>
 function myFunction() {
-    document.getElementById("myText").select();
+    document.getElementsByID("contact").click();
 }
 </script>
 </body>
