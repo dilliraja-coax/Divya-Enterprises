@@ -55,7 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MSC3CC');</script>
 <!-- End Google Tag Manager -->
 <!--header-->
-<div class="header header-top" style="padding: 2px">
+<div class="header header-top">
 	<div class="container">
 		<div class="logo">
 		<h1><a>
@@ -137,33 +137,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="jumbotron" style="margin: 0px;padding: 0px">
   <h2 style="padding-bottom: 15px; text-align: center;font-size: 2.5em;font-family: 'Cinzel-Regular';">PORTFOLIO</h2>
 
-  <div class="container magnific1">
+  <div class="container">
+  <div class="magnific1">
   <div class="row">
      <div class="col-sm-3 col-md-3 col-xs-12">
       <section>
 
-			<a href="../images/gallery/g1.jpg" class="magnific">
+			<a href="../images/gallery/g1.jpg" >
       			<img src="../images/gallery/g1.jpg" width="300" height="200" />
     		</a>
   		</section>       
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g2.jpg" class="magnific">
+			<a href="../images/gallery/g2.jpg" >
       			<img src="../images/gallery/g2.jpg" width="300" height="200" />
     		</a>
   		</section>       
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g3.jpg" class="magnific">
+			<a href="../images/gallery/g3.jpg" >
       			<img src="../images/gallery/g3.jpg" width="300" height="200" />
     		</a>
   		</section>       
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g4.jpg" class="magnific">
+			<a href="../images/gallery/g4.jpg" >
       			<img src="../images/gallery/g4.jpg" width="300" height="200" />
     		</a>
   		</section> 
@@ -172,89 +173,90 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   	<div class="row">
   		<div class="col-sm-3 col-md-3 col-xs-12">
   		<section>
-			<a href="../images/gallery/g5.jpg" class="magnific">
+			<a href="../images/gallery/g5.jpg" >
       			<img src="../images/gallery/g5.jpg" width="300" height="200" />
     		</a>
   		</section>       
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g6.jpg" class="magnific">
+			<a href="../images/gallery/g6.jpg" >
       			<img src="../images/gallery/g6.jpg" width="300" height="200" />
     		</a>
   		</section>       
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g7.jpg" class="magnific">
+			<a href="../images/gallery/g7.jpg" >
       			<img src="../images/gallery/g7.jpg" width="300" height="200" />
     		</a>
   		</section>       
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g8.jpg" class="magnific">
+			<a href="../images/gallery/g8.jpg" >
       			<img src="../images/gallery/g8.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g9.jpg" class="magnific">
+			<a href="../images/gallery/g9.jpg" >
       			<img src="../images/gallery/g9.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g10.jpg" class="magnific">
+			<a href="../images/gallery/g10.jpg" >
       			<img src="../images/gallery/g10.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g11.jpg" class="magnific">
+			<a href="../images/gallery/g11.jpg" >
       			<img src="../images/gallery/g11.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g12.jpg" class="magnific">
+			<a href="../images/gallery/g12.jpg" >
       			<img src="../images/gallery/g12.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g13.jpg" class="magnific">
+			<a href="../images/gallery/g13.jpg" >
       			<img src="../images/gallery/g13.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g14.jpg" class="magnific">
+			<a href="../images/gallery/g14.jpg" >
       			<img src="../images/gallery/g14.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g15.jpg" class="magnific">
+			<a href="../images/gallery/g15.jpg" >
       			<img src="../images/gallery/g15.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
       <div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-			<a href="../images/gallery/g16.jpg" class="magnific">
+			<a href="../images/gallery/g16.jpg" >
       			<img src="../images/gallery/g16.jpg" width="300" height="200" />
     		</a>
   		</section>         
       </div><!--/col-->
   </div><!--/row-->
+  </div>
   </div><!--/container-->
 </div>
 
