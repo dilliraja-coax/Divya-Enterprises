@@ -137,8 +137,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="jumbotron" style="margin: 0px;padding: 0px">
   <h2 style="padding-bottom: 15px; text-align: center;font-size: 2.5em;font-family: 'Cinzel-Regular';">PORTFOLIO</h2>
 
-  <div class="container">
-  <div class="row magnific1">
+  <div class="container magnific1">
+  <div class="row">
      <div class="col-sm-3 col-md-3 col-xs-12">
       <section>
 

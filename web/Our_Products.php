@@ -70,8 +70,8 @@ img.icon-pro{
 
 	}
 
-  P{text-align: center; margin-bottom: 0px !important;}
-  div.modal-body > P{text-align: -moz-left !important;}
+  h5{text-align: center; font-size: 1.2em !important;margin-top: 4px;}
+
 
 		.myDiv
 {
@@ -294,33 +294,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="row" style="padding-bottom: 5px">
     <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page2','Page3','Page1','Page4','Page5','Page6','con');">
         <img src="../images/icon/air.png" class="icon-pro">
-        <P>Air</P>
-        <P>Cooler</P>
+        <h5>Air</h5>
+        <h5>Cooler</h5>
          </div>
          <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page6','Page2','Page3','Page4','Page1','Page5','con');">
         <img src="../images/icon/catering.png" class="icon-pro">
-        <P>Catering</P>
-        <P>Equipments</P>
+        <h5>Catering</h5>
+        <h5>Equipments</h5>
       </div>
          <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page3','Page2','Page4','Page1','Page5','Page6','con');">
         <img src="../images/icon/chairs3.png" class="icon-pro">
-        <P>Chairs</P>
+        <h5>Chairs</h5>
       </div>
       
       <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page5','Page2','Page3','Page4','Page1','Page6','con');">
         <img src="../images/icon/fan1.png" class="icon-pro">
-        <P>Fan</P>
+        <h5>Fan</h5>
       </div>
-			<div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6','con');">
-				<img src="../images/icon/shamiana1.png" class="icon-pro">
-        <P>Shamiana</P> 
-			</div>			
-			<div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6','con');">
-				<img src="../images/icon/tables1.png" class="icon-pro">
-				<P>Tables</P>
-			</div>
-			
-		</div>
+      <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page1','Page2','Page3','Page4','Page5','Page6','con');">
+        <img src="../images/icon/shamiana1.png" class="icon-pro">
+        <h5>Shamiana</h5> 
+      </div>      
+      <div class="col-md-2 col-xs-5 col-sm-4 myDiv" onclick="return show('Page4','Page2','Page3','Page1','Page5','Page6','con');">
+        <img src="../images/icon/tables1.png" class="icon-pro">
+        <h5>Tables</h5>
+      </div>
+      
+    </div>
 	</div>
 </div>
 <div class="jumbotron" style="margin: 0px">
@@ -789,8 +789,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="col-md-4 address-grid">
 					<i class="glyphicon glyphicon-map-marker"></i>
 					<div class="address1">
-						<p>No 56, St Marys Road,</p><p style="text-align: -moz-left ;">Mandaveli,</p>
-						<p style="text-align: -moz-left ;">Chennai-600 028</p>
+						<p>No 56, St Marys Road,</p><p>Mandaveli,</p>
+						<p>Chennai-600 028</p>
 					</div>
 						<div class="clearfix"> </div>
 				</div>
