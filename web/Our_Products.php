@@ -71,7 +71,7 @@ img.icon-pro{
 	}
 
   P{text-align: center; margin-bottom: 0px !important;}
-  div.modal-body P{text-align: -moz-left !important;}
+  div.modal-body > P{text-align: -moz-left !important;}
 
 		.myDiv
 {
@@ -789,8 +789,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="col-md-4 address-grid">
 					<i class="glyphicon glyphicon-map-marker"></i>
 					<div class="address1">
-						<p>No 56, St Marys Road,</p><p>Mandaveli,</p>
-						<p>Chennai-600 028</p>
+						<p>No 56, St Marys Road,</p><p style="text-align: -moz-left ;">Mandaveli,</p>
+						<p style="text-align: -moz-left ;">Chennai-600 028</p>
 					</div>
 						<div class="clearfix"> </div>
 				</div>

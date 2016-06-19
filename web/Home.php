@@ -76,7 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="content-top1">
 			  	<div class=" col-md-4 grid-top">
 					<div class="top-grid">
-					 <a href="pages/Our_Products.html"><i class="glyphicon glyphicon-cutlery"></i></a>
+					 <a href="web/Our_Products"><i class="glyphicon glyphicon-cutlery"></i></a>
 					  <div class="caption">
 						<h3 style="font-weight: bold;color: darkmagenta; padding-top: 5px ">What We Serve</h3>
 						<p> Hire the best products at eye poping price. Customer service is at the center of our thinking.</p>
@@ -85,7 +85,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class=" col-md-4 grid-top">
 					<div class="top-grid top">
-					 <a href="pages/Gallery.html"><i class="glyphicon glyphicon-camera home1 "></i></a>
+					 <a href="web/Gallery"><i class="glyphicon glyphicon-camera home1 "></i></a>
 					  <div class="caption">
 						<h3 style="font-weight: bold;color: mediumblue; padding-top: 5px ">Products Shoot</h3>
 						<p> All function party order undertaken for Hire. We provides custom wedding and catering equipments rentals.</p>
@@ -94,7 +94,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 				<div class=" col-md-4 grid-top">
 					<div class="top-grid">
-					 <a href="pages/Contact.php"><img  class="glyphicon glyphicon-van" src="images/icon/van.png"></a>
+					 <a href="web/Contact"><img  class="glyphicon glyphicon-van" src="images/icon/van.png"></a>
 					  <div class="caption">
 						<h3 style="font-weight: bold;color: darkmagenta; padding-top: 5px ">Reach us at any cost</h3>
 						<p>Avail our 24x7 telephonic service for Event support or any other assistance, even on holidays.</p>
@@ -109,22 +109,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<!--content-left-->
 		<div class="content-left">
 			<div class="col-md-4 content-left-top">
-				<a href="pages/Gallery.html"><img class="img-responsive" style="width:350px; height: 234px" src="images/h1.jpg" alt=""></a>
+				<img class="img-responsive" style="width:350px; height: 234px" src="images/h1.jpg" alt="">
 				<div class=" content-left-bottom">
-					<h4><i class="glyphicon glyphicon-hand-right"></i><a href="pages/Gallery.html">Our Foot Prints in Weddings</h4>			
+					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Weddings</h4>			
 				</div>
 			</div>
 			<div class="col-md-4 content-left-top">
-				<a href="pages/Gallery.html"><img class="img-responsive" src="images/h2.jpg" alt=""></a>
+				<img class="img-responsive" src="images/h2.jpg" alt=""></a>
 				<div class=" content-left-bottom">
-					<h4><i class="glyphicon glyphicon-hand-right"></i><a href="pages/Gallery.html">Our Foot Prints in Events</a></h4>			
+					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Events</h4>			
 				</div>
 			</div>
 			<div class="col-md-4 content-left-top">
-				<a href="pages/Gallery.html"><img class="img-responsive" src="images/h3.jpg" alt=""></a>
+				<img class="img-responsive" src="images/h3.jpg" alt="">
 				<div class=" content-left-bottom">
-					<h4><i class="glyphicon glyphicon-hand-right"></i><a href="pages/Gallery.html">Our Foot Prints in Party
-					</a></h4>				
+					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Party</h4>				
 				</div>
 			</div>
 			<div class="clearfix"> </div>

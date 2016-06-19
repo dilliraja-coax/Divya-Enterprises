@@ -138,9 +138,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <h2 style="padding-bottom: 15px; text-align: center;font-size: 2.5em;font-family: 'Cinzel-Regular';">PORTFOLIO</h2>
 
   <div class="container">
-  <div class="row">
+  <div class="row magnific1">
      <div class="col-sm-3 col-md-3 col-xs-12">
-        <section>
+      <section>
+
 			<a href="../images/gallery/g1.jpg" class="magnific">
       			<img src="../images/gallery/g1.jpg" width="300" height="200" />
     		</a>
