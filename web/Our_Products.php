@@ -69,6 +69,16 @@ img.icon-pro{
     margin-right: auto !important;
 
 	}
+    label{
+    display: block;
+    font-family: sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+        
+    }
 
   h5{text-align: center; font-size: 1.2em !important;margin-top: 4px;}
 
@@ -286,7 +296,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="container">
 	    <div class="row" style="padding-bottom: 5px;padding-top: 5px">
       <div class="col-md-4">
-	    	<h2 style="text-align: center;font-size: 2em;font-family: 'Cinzel-Regular';">PRODUCT - For Hire</h2>
+	    	<h2 style="text-align: center;font-size: 2em;font-family: 'Cinzel-Regular';">PRODUCTS - For Hire</h2>
         </div> 
         <div class="pull-right" style="padding-bottom: 5px;padding-top: 5px">
         </div>
@@ -350,15 +360,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200" src="../images/equip/s1.jpg">
-                <P>Shamiana Design-1</P>
+                <label>Shamiana Design-1</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200" src="../images/equip/s2.jpg">
-                <P>Shamiana Design-2</P>
+                <label>Shamiana Design-2</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200" src="../images/equip/s3.jpg">
-                <P>Shamiana Design-3</P>
+                <label>Shamiana Design-3</label>
               </div>
               
             </div>
@@ -367,15 +377,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/s5.jpg">
-                <P>Shamiana Design-4</P>
+                <label>Shamiana Design-4</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/s6.jpg">
-                <P>Shamiana Design-5</P>
+                <label>Shamiana Design-5</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/s7.jpg">
-                <P>Shamiana Design-6</P>
+                <label>Shamiana Design-6</label>
               </div>
               
             </div>
@@ -402,15 +412,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/a1.jpg">
-                <P>60- Litre Cooler</P>
+                <label >60- Litre Cooler</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/a2.jpg">
-                <P>34- Litre Cooler</P>
+                <label>34- Litre Cooler</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/a3.jpg">
-                <P>25- Litre Cooler</P>
+                <label>25- Litre Cooler</label>
               </div>
             </div>
          </div>
@@ -418,15 +428,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/a1.jpg">
-                <P>60- Litre Cooler</P>
+                <label>60- Litre Cooler</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/a2.jpg">
-                <P>34- Litre Cooler</P>
+                <label>34- Litre Cooler</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/a3.jpg">
-                <P>25- Litre Cooler</P>
+                <label>25- Litre Cooler</label>
               </div>
             </div>
           </div>
@@ -452,15 +462,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/c1.jpg">
-                <P>Groom & Bride Chair Model-1</P>
+                <label>Groom & Bride Chair Model-1</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/c2.jpg">
-                <P>Groom & Bride Chair Model-2</P>
+                <label>Groom & Bride Chair Model-2</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/c3.jpg">
-                <P>Groom & Bride Chair Model-3</P>
+                <label>Groom & Bride Chair Model-3</label>
               </div>
               
             </div>
@@ -469,15 +479,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/c4.jpg">
-                <P>Banquet Chair Model-1</P>
+                <label>Banquet Chair Model-1</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/c5.jpg">
-                <P>Banquet Chair Model-2</P>
+                <label>Banquet Chair Model-2</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/c6.jpg">
-                <P>Banquet Chair Model-3</P>
+                <label>Banquet Chair Model-3</label>
               </div>
               
             </div>
@@ -504,15 +514,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t1.jpg">
-                <P>Frill Table Model-1</P>
+                <label>Frill Table Model-1</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t2.jpg">
-                <P>Frill Table Model-2</P>
+                <label>Frill Table Model-2</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t3.jpg">
-                <P>Frill Table Model-3</P>
+                <label>Frill Table Model-3</label>
               </div>
               
             </div>
@@ -521,15 +531,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t4.jpg">
-                <P>Frill Table Model-4</P>
+                <label>Frill Table Model-4</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t5.jpg">
-                <P>Frill Table Model-5</P>
+                <label>Frill Table Model-5</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t6.jpg">
-                <P>Frill Table Model-6</P>
+                <label>Frill Table Model-6</label>
               </div>
               
             </div>
@@ -556,15 +566,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/f1.jpg">
-                <P>Fan Type-1</P>
+                <label>Fan Type-1</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/f2.jpg">
-                <P>Fan Type-2</P>
+                <label>Fan Type-2</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/f3.jpg">
-                <P>Fan Type-3</P>
+                <label>Fan Type-3</label>
               </div>
               
             </div>
@@ -573,15 +583,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/f1.jpg">
-                <P>Fan Type-1</P>
+                <label>Fan Type-1</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/f2.jpg">
-                <P>Fan Type-2</P>
+                <label>Fan Type-2</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/f3.jpg">
-                <P>Fan Type-3</P>
+                <label>Fan Type-3</label>
               </div>
               
             </div>
@@ -608,15 +618,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/2.JPG">
-                <P>Chafing Dish</P>
+                <label>Chafing Dish</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/3.JPG">
-                <P>Full Food Container</P>
+                <label>Full Food Container</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/4.JPG">
-                <P>Half Food Container</P>
+                <label>Half Food Container</label>
               </div>
             </div>
          </div>
@@ -624,15 +634,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/5.JPG">
-                <P>Cup, Knife, Fork, Spoon</P>
+                <label>Cup, Knife, Fork, Spoon</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/6.JPG">
-                <P>Oval SS Plater</P>
+                <label>Oval SS Plater</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/7.JPG">
-                <P>Sauce Pan</P>
+                <label>Sauce Pan</label>
               </div>
             </div>
           </div>
@@ -640,15 +650,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/8.jpg">
-                <P>Kothu Kinaum & Oil Stainer</P>
+                <label>Kothu Kinaum & Oil Stainer</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/9.JPG">
-                <P>SS Drum</P>
+                <label>SS Drum</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/10.JPG">
-                <P>SS Handi</P>
+                <label>SS Handi</label>
               </div>
             </div>
           </div>
@@ -656,15 +666,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/11.JPG">
-                <P>Rice Colander</P>
+                <label>Rice Colander</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/12.JPG">
-                <P>Ice Cream Dispencer</P>
+                <label>Ice Cream Dispencer</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/13.jpg">
-                <P>Ice Bucket</P>
+                <label>Ice Bucket</label>
               </div>
             </div>
           </div>
@@ -672,15 +682,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/14.jpg">
-                <P>Tea Cane</P>
+                <label>Tea Cane</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/15.jpg">
-                <P>Puppet Basket</P>
+                <label>Puppet Basket</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/16.jpg">
-                <P>Soup & Tea Cup</P>
+                <label>Soup & Tea Cup</label>
               </div>
             </div>
           </div>
@@ -688,15 +698,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/17.jpg">
-                <P>Juice Glass</P>
+                <label>Juice Glass</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/18.jpg">
-                <P>Acrylic Bowl</P>
+                <label>Acrylic Bowl</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/19.jpg">
-                <P>Acrylic Bowl</P>
+                <label>Acrylic Bowl</label>
               </div>
             </div>
           </div>
@@ -704,15 +714,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/20.jpg">
-                <P>Glass Bowl</P>
+                <label>Glass Bowl</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/21.jpg">
-                <P>R/B Acrylic Bowl</P>
+                <label>R/B Acrylic Bowl</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/22.jpg">
-                <P>White Acrylic Bowl</P>
+                <label>White Acrylic Bowl</label>
               </div>
             </div>
           </div>
@@ -720,15 +730,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/23.jpg">
-                <P>Acrylic Bowl with Stand</P>
+                <label>Acrylic Bowl with Stand</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/24.jpg">
-                <P>Flower & Square Acrylic Bowl</P>
+                <label>Flower & Square Acrylic Bowl</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/25.jpg">
-                <P>Shell Bowl</P>
+                <label>Shell Bowl</label>
               </div>
             </div>
           </div>
@@ -736,15 +746,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/26.jpg">
-                <P>Electrical Soup Pot</P>
+                <label>Electrical Soup Pot</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/27.jpg">
-                <P>Salt & Pepper</P>
+                <label>Salt & Pepper</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/28.jpg">
-                <P>Soccer</P>
+                <label>Soccer</label>
               </div>
             </div>
           </div>
@@ -752,15 +762,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/29.jpg">
-                <P>Dust Bin</P>
+                <label>Dust Bin</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/30.jpg">
-                <P>Tode Box</P>
+                <label>Tode Box</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/products/31.jpg">
-                <P>Cake Tray</P>
+                <label>Cake Tray</label>
               </div>
             </div>
           </div>
