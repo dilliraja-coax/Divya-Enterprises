@@ -51,7 +51,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<ul>
 					<li><a href="../index" class="hvr-sweep-to-bottom">Home</a></li>
 					<li><a href="Our_Products" >Our Products</a></li>
-					<li class="active"><a href="web/About_us" class="hvr-sweep-to-bottom ">About Us</a></li>
+					<li class="active"><a href="About_us" class="hvr-sweep-to-bottom ">About Us</a></li>
 					<li><a href="Gallery" class="hvr-sweep-to-bottom ">Gallery</a></li>
 					<li><a href="Contact" class="hvr-sweep-to-bottom">Contact Us</a></li>
 				</ul>
