@@ -217,7 +217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             var c = content.substr(0, showChar);
             var h = content.substr(showChar, content.length - showChar);
  
-            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><button>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></button>';
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<button class="morelink">' + moretext + '</a></span>';
  
             $(this).html(html);
         }
