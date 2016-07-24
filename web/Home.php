@@ -207,7 +207,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     var ellipsestext = "...";
     var moretext = "Show more >";
     var lesstext = "Show less";
-    
+    document.button.style.cssText = 'color:#00bce4;';
 
     $('.more').each(function() {
         var content = $(this).html();
