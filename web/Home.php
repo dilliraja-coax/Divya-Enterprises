@@ -201,13 +201,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 </div>
 <script type="text/javascript">
+document.button.style.cssText = 'color:#00bce4;';
 	$(document).ready(function() {
     // Configure/customize these variables.
     var showChar = 100;  // How many characters are shown by default
     var ellipsestext = "...";
     var moretext = "Show more >";
     var lesstext = "Show less";
-    document.button.style.cssText = 'color:#00bce4;';
+    
 
     $('.more').each(function() {
         var content = $(this).html();
@@ -217,7 +218,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             var c = content.substr(0, showChar);
             var h = content.substr(showChar, content.length - showChar);
  
-            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<button class="morelink">' + moretext + '</a></span>';
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<button class="morelink">' + moretext + '</button></span>';
  
             $(this).html(html);
         }
