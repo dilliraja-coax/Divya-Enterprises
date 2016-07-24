@@ -112,7 +112,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<img class="img-responsive" style="width:350px; height: 234px" src="images/h1.jpg" alt="">
 				<div class=" content-left-bottom">
 					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Weddings</h4>
-					<span class="morecontent">
+					<span class="more">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </span>			
 				</div>
@@ -212,19 +212,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             $(this).html(html);
         }
  
-    });
- 
-    $(".morelink").click(function(){
-        if($(this).hasClass("less")) {
-            $(this).removeClass("less");
-            $(this).html(moretext);
-        } else {
-            $(this).addClass("less");
-            $(this).html(lesstext);
-        }
-        $(this).parent().prev().toggle();
-        $(this).prev().toggle();
-        return false;
     });
 });
 </script>
