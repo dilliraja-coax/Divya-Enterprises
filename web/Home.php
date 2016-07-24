@@ -28,6 +28,16 @@
   ga('send', 'pageview');
 
 </script>
+<style type="text/css">
+	.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+
+</style>
 </head>
 <body>
 <!-- Google Tag Manager -->
@@ -212,6 +222,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             $(this).html(html);
         }
  
+    });
+ 
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
     });
 });
 </script>
