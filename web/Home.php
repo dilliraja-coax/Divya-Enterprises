@@ -201,7 +201,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 </div>
 <script type="text/javascript">
-document.button.style.cssText = 'color:#00bce4;';
 	$(document).ready(function() {
     // Configure/customize these variables.
     var showChar = 100;  // How many characters are shown by default
