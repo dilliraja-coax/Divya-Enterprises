@@ -774,6 +774,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
             </div>
           </div>
+          <div class="item">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/32.jpg">
+                <label>High Pressure Gas Range</label>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/34.jpg">
+                <label>Tea Can</label>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/31.jpg">
+                <label>Cake Tray</label>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/35.jpg">
+                <label>Tea Can</label>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/36.jpg">
+                <label>Tea Can</label>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/products/31.jpg">
+                <label>Cake Tray</label>
+              </div>
+            </div>
+          </div>
         </div>
      <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">

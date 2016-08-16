@@ -130,13 +130,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="col-md-4 content-left-top">
 				<img class="img-responsive" src="images/h2.jpg" alt=""></a>
 				<div class=" content-left-bottom">
-					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Events</h4>			
+					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Events</h4>
+					<span class="more">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </span>						
 				</div>
 			</div>
 			<div class="col-md-4 content-left-top">
 				<img class="img-responsive" src="images/h3.jpg" alt="">
 				<div class=" content-left-bottom">
-					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Party</h4>				
+					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Party</h4>		
+					<span class="more">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </span>					
 				</div>
 			</div>
 			<div class="clearfix"> </div>
@@ -217,7 +223,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             var c = content.substr(0, showChar);
             var h = content.substr(showChar, content.length - showChar);
  
-            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<button class="morelink">' + moretext + '</button></span>';
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a class="morelink">' + moretext + '</a></span>';
  
             $(this).html(html);
         }
