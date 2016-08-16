@@ -211,8 +211,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     // Configure/customize these variables.
     var showChar = 100;  // How many characters are shown by default
     var ellipsestext = "...";
-    var moretext = "Show more >";
-    var lesstext = "Show less";
+    var moretext = "more >";
+    var lesstext = "less";
     
 
     $('.more').each(function() {
