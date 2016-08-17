@@ -458,7 +458,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div id="myCarousel2" class="carousel slide" data-ride="carousel">
      <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-          <div class="item active">
+<!--           <div class="item active">
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/c1.jpg">
@@ -474,8 +474,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               
             </div>
-         </div>
-          <div class="item">
+         </div> -->
+          <div class="item active">
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/c4.jpg">
@@ -514,20 +514,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t1.jpg">
-                <label>Frill Table Model-1</label>
+                <label>SS Cocktail Table</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t2.jpg">
-                <label>Frill Table Model-2</label>
+                <label>Glass Top Rectangular Table (6*2)</label>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t3.jpg">
-                <label>Frill Table Model-3</label>
+                <label>Glass Top Rectangular Table (6*2)</label>
               </div>
               
             </div>
          </div>
-          <div class="item">
+  <!--         <div class="item">
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-4">
                 <img class='thumbnail' width="300" height="200"  src="../images/equip/t4.jpg">
@@ -543,7 +543,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               
             </div>
-          </div>
+          </div> -->
         </div>
      <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">

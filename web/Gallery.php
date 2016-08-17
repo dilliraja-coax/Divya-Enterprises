@@ -284,27 +284,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </section>         
       </div><!--/col--><div class="col-sm-3 col-md-3 col-xs-12">
         <section>
-      <a href="../images/gallery/g21.jpg" >
-            <img src="../images/gallery/g21.jpg" width="300" height="200" />
-        </a>
-      </section>         
-      </div><!--/col-->
-      <div class="col-sm-3 col-md-3 col-xs-12">
-        <section>
       <a href="../images/gallery/g22.jpg" >
             <img src="../images/gallery/g22.jpg" width="300" height="200" />
-        </a>
-      </section>         
-      </div><!--/col--><div class="col-sm-3 col-md-3 col-xs-12">
-        <section>
-      <a href="../images/gallery/g23.jpg" >
-            <img src="../images/gallery/g23.jpg" width="300" height="200" />
-        </a>
-      </section>         
-      </div><!--/col--><div class="col-sm-3 col-md-3 col-xs-12">
-        <section>
-      <a href="../images/gallery/g24.jpg" >
-            <img src="../images/gallery/g24.jpg" width="300" height="200" />
         </a>
       </section>         
       </div><!--/col-->
