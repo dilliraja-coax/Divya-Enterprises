@@ -491,6 +491,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               
             </div>
+          </div>    
+          <div class="item">
+            <div class="container">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c4.jpg">
+                <label>Banquet Chair Model-1</label>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c5.jpg">
+                <label>Banquet Chair Model-2</label>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class='thumbnail' width="300" height="200"  src="../images/equip/c6.jpg">
+                <label>Banquet Chair Model-3</label>
+              </div>
+              
+            </div>
           </div>
         </div>
      <!-- Left and right controls -->
