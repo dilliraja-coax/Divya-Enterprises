@@ -134,7 +134,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class=" content-left-bottom">
 					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Events</h4>
 					<span class="more">
-     We take pride that besides bearing the responsibility of ensuring a splendid event from the host to the guests’ experience. We facilitates its events with self propertied decoration, lighting, landscaping and much more.A team of seasoned professionals that are committed to making sure that your event is successful, professionally organized and managed. We can help you to achieve your goals by communicating with your target audience.
+     We take pride that besides bearing the response of ensuring a splendid event from the host to the guests’ experience. A team of seasoned professionals that are committed to making sure that your event is good , professionally organized and managed. We can help you to achieve your goals by communicating with your target audience. We facilitates its events with self propertied decoration, lighting, landscaping and much more.
     </span>						
 				</div>
 			</div>
@@ -226,7 +226,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             var c = content.substr(0, showChar);
             var h = content.substr(showChar, content.length - showChar);
  
-            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span><a href="" class="morelink">' + moretext + '</a></span>';
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '</span><span class="morecontent"><span>' + h + '</span><a href="" class="morelink">' + moretext + '</a></span>';
  
             $(this).html(html);
         }
