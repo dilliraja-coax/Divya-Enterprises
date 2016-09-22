@@ -123,7 +123,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class=" content-left-bottom">
 					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Weddings</h4>
 					<span class="more">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Personalized coaching for hands-on DIY brides & grooms who need guidance from a wedding professional planning & budget or concept & aesthetics.Choose the services that suit you best to make the planning of your perfect day easier – modular services to book separately or as add-ons to existing packages.Right by your side from the beginning: complete planning, organization, coordination for you to enjoy your special day all the way through.
+
+
     </span>			
 				</div>
 			</div>
@@ -132,7 +134,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class=" content-left-bottom">
 					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Events</h4>
 					<span class="more">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     We take pride that besides bearing the responsibility of ensuring a splendid event from the host to the guests’ experience. We facilitates its events with self propertied decoration, lighting, landscaping and much more.A team of seasoned professionals that are committed to making sure that your event is successful, professionally organized and managed. We can help you to achieve your goals by communicating with your target audience.
     </span>						
 				</div>
 			</div>
@@ -141,7 +143,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class=" content-left-bottom">
 					<h4><i class="glyphicon glyphicon-hand-right"></i>Our Foot Prints in Party</h4>		
 					<span class="more">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Whatever kind of party you are planning - a birthday, bridal or baby shower, quinceanera, bat or bar mitzvah, bachelor/bachlorette or new years eve party or some. We will Manage the guest list, decor, program, budget and more. All in one convenient place. We will provide our 24x7 telephonic service for Event support or any other assistance, even on holidays.
+      We made a huge events around in Chennai areas.
     </span>					
 				</div>
 			</div>
